@@ -1,0 +1,7 @@
+{
+    "name": "Training_Module2",
+    "description": "N/A",
+    "require": {
+        "Training_Module1": "1.0.0"
+    }
+}
