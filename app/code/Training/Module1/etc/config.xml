@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
-        <section>
-            <group>
-                <select_field>Yes</select_field>
-                <text_field>text</text_field>
-            </group>
-        </section>
+        <box_size>
+            <box_size_group>
+                <default_box_size_attribute>No</default_box_size_attribute>
+                <size>10</size>
+            </box_size_group>
+        </box_size>
     </default>
 </config>

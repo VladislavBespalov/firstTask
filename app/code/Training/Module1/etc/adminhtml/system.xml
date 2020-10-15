@@ -1,19 +1,21 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="settings">
-            <label>Training_Settings</label>
-
+        <tab id="astrio" translate="label" sortOrder="10">
+            <label>Training settings</label>
         </tab>
-        <section id="section">
-            <group id="group">
-                <label>Fields</label>
-                <field id="select_field" type="select" sortOrder="10" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
-                    <label>Yes/No</label>
+        <section id="box_size" translate="label" sortOrder="140" showInDefault="1" showInWebsite="0" showInStore="0">
+            <label>Settings</label>
+            <tab>astrio</tab>
+            <resource>Training_Module1::box_size_config</resource>
+            <group id="box_size_group" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Training settings</label>
+                <field id="default_box_size_attribute" translate="label" type="select" sortOrder="3" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Включить надбавку к цене</label>
                     <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
                 </field>
-                <field id="text_field" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
-                    <label>Text</label>
+                <field id="size" translate="label" type="text" sortOrder="3" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
+                    <label>Величина надбавки</label>
                 </field>
             </group>
         </section>

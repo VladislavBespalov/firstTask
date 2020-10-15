@@ -226,7 +226,7 @@
                     <can_be_empty>1</can_be_empty>
                 </field>
                 <field id="default" translate="label" type="select" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" canRestore="1">
-                    <label>Default Country</label>
+                    <label>Default Countrwwwwwy</label>
                     <source_model>Magento\Directory\Model\Config\Source\Country</source_model>
                 </field>
                 <field id="eu_countries" translate="label" type="multiselect" sortOrder="30" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
