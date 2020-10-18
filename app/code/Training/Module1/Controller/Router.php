@@ -9,9 +9,6 @@ use Magento\Framework\App\RequestInterface;
 use Magento\Framework\App\ResponseInterface;
 use Magento\Framework\App\RouterInterface;
 
-/**
- * Class Router
- */
 class Router implements RouterInterface
 {
     /**
